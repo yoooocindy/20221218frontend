@@ -56,13 +56,13 @@ hahahahahahaha
     </li>
 </ul>
 
-<div id="about-us" style="height: 100vh; background: yellow;">
+<div id="about-us" style="height: 10vh; background: yellow;">
     關於我們
 </div>
-<div id="production" style="height: 100vh; background: grey;">
+<div id="production" style="height: 10vh; background: grey;">
     商品介紹
 </div>
-<div id="contact-us" style="height: 100vh; background: blue;">
+<div id="contact-us" style="height: 10vh; background: blue;">
     聯絡我們
 </div>
 
@@ -104,7 +104,7 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<form method="GET" action="">
+<form method="post" action="https://book.niceinfos.com/frontend/assets/html_contact_form/api.php">
     <div>
         <input type="text" name="account" value="" placeholder="請輸入帳號">
     </div>
@@ -116,6 +116,28 @@ allowfullscreen></iframe>
     </div>
 </form>
 
-
+<input type="password" name="password" placeholder="請輸入密碼">
+</div>
+<div>
+    <input type="number" name="auth" placeholder="請輸入驗證數字">
+</div>
+<div>
+    <input type="tel" name="phone" placeholder="請輸入電話">
+</div>
+<div>
+    <input type="color" name="color" placeholder="請輸入顏色">
+</div>
+<div>
+    <input type="date" name="date" placeholder="請輸入日期">
+</div>
+<div>
+    <input type="time" name="time" placeholder="請輸入時間">
+</div>
+<div>
+    <input type="submit" value="Send">
+    <button type="submit">發送</button>
+    <button type="button">預覽</button>
+</div>
+</form>
 </body>
 </html>
